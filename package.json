@@ -1,8 +1,7 @@
 {
   "name": "@intellocator/cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CLI tool for Intellocator ",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +9,10 @@
     "cli",
     "intellocator"
   ],
+  "repository": "https://github.com/intellocator/intellocator-cli.git",
   "author": "intellocator",
-  "license": "ISC"
+  "license": "ISC",
+  "bin": {
+    "intell": "./bin/cli.js"
+  }
 }
