@@ -1,2 +1,2 @@
-# intellocator-cli
+# Intellocator CLI
 CLI tool for Intellocator
